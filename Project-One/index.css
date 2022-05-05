@@ -1,0 +1,155 @@
+body {
+    /*margin: 0;*/
+    /*background-image: url("img/e01-2.png");*/
+    background-repeat: no-repeat;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    color: #6c6c6c;
+}
+
+/* 上面部分 */
+.menu {
+    padding: 20px 120px;
+    letter-spacing: 0.6px;
+}
+
+.item-menu {
+    color: #6c6c6c;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.item-menu+.item-menu {
+    margin-left: 42px;
+}
+
+/* 左边部分 */
+.left {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 60px;
+    float: left;
+    width: 1000px;
+}
+
+.data {
+    vertical-align: 1px;
+    padding-top: 30px;
+}
+
+.data+.data {
+    margin-top: 70px;
+}
+
+.txtOne {
+    color: darkgray;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.txtTwo {
+    color: darkgray;
+    font-size: 25px;
+}
+
+.uname {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.date {
+    color: darkgray;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.txtTwo+.uname {
+    padding-top: 40px;
+}
+
+.uname+.date {
+    padding-top: 15px;
+}
+
+/* 右边部分 */
+.right {
+    float: left;
+    width: 600px;
+    padding-top: 100px;
+    padding-left: 470px;
+}
+
+.No {
+    float: left;
+    width: 50px;
+}
+
+.right-Text {
+    float: left;
+    width: 500px;
+}
+
+.Text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Text+.right-data {
+    padding-top: 80px;
+}
+
+.list+.list {
+    padding-top: 260px;
+}
+
+.Num+.Num {
+    padding-top: 200px;
+}
+
+.Num {
+    color: darkgray;
+    font-size: 50px;
+    float: left;
+}
+
+.body {
+    float: left;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+.Text1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Text2 {
+    font-size: 25px;
+}
+
+.Text3 {
+    color: darkgray;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Text1+.Text2 {
+    padding-top: 10px;
+}
+
+.Text2+.Text3 {
+    padding-top: 5px;
+}
+

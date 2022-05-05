@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.m-bg {
+    float: left;
+    width: 577px;
+    height: 486px;
+    /*background: url("/img/e06-2.png") no-repeat;*/
+    margin: 0;
+}
+
+.m-bd {
+    display: flex;
+    width: 421px;
+    height: 398px;
+    position: absolute;
+    flex-direction: column;
+    margin: 47px 0 0 102px;
+    opacity: 70%;
+    border: 1.5px solid black;}
+
+.img {
+    width: 422px;
+    height: 280px;
+    /*background: gray;*/
+    background: #ffffeb;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background: gainsboro;
+    width: 422px;
+    height: 119px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.i-txtOne {
+    border: 1.5px solid;
+    font-size: 10px;
+    width: 400px;
+    height: 18px;
+    font-weight: bold;}
+
+.i-txtTwo {
+    border: 1.5px solid black;
+    font-size: 10px;
+    width: 399px;
+    height: 18px;
+    color: red;font-weight: bold;}
+
+.i-txtThr {
+    border: 1.5px solid black;
+    width: 399px;
+    height: 29px;
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.t {
+    margin: 0 0 0 5px;
+}
+
+.t-one {
+    color: red;
+    font-size: 20px;
+}
+
+.t-two {
+    color: #a6a6a0;
+    font-size: 6px;
+}
+
+.t-thr {
+    color: #a6a6a0;
+    margin: 0 0 0 154px;
+    font-size: 4px;
+}

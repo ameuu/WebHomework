@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.m-bg {
+    float: left;
+    width: 850px;
+    height: 800px;
+/*    background: url("/img/e06-3.png") no-repeat;*/
+    background-size: 850px;
+    margin: 0;
+}
+
+.m-bd {
+    width: 851px;
+    height: 550px;
+    position: absolute;
+    display: flex;
+    opacity: 100%;
+    flex-wrap: wrap;
+    background: #f2f2f2;
+    align-content: flex-start;
+    border: 1px solid #c0c0c0;
+    justify-content: space-evenly;
+}
+
+.element {
+    margin: 10px 0 3px 0;
+    border: 1px solid #c0c0c0;
+}
+
+.img {
+    width: 271px;
+    height: 183px;
+    /*background: gray;*/
+    background: #ffffeb;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background: #fdfdfe;
+    width: 271px;
+    height: 75px;
+
+
+    align-items: center;}
+
+.i-txtOne {
+    font-size: 1mm;
+    width: 271px;
+    height: 21px;
+    /* font-weight: bold; */
+}
+
+.i-txtTwo {
+    font-size: xx-small;
+    width: 271px;
+    height: 18px;
+    color: #f84a68;
+    font-weight: bold;
+}
+
+.i-txt-info {
+    font-size: xx-small;
+    width: 271px;
+    height: 18px;
+    color: #9c9c9c;
+    font-weight: bold;
+}
+
+.i-txtThr {
+    width: 271px;
+    height: 44px;
+    color: #f84a68;
+    font-size: 10px;
+
+    display: flex;justify-content: space-between;align-items: baseline;}
+
+.t {
+    font-size: xx-small;
+}
+
+.t-one {
+    color: #f84a68;
+    font-size: 29px;
+    /* font-weight: bold; */
+}
+
+.t-two {
+    color: #a6a6a0;
+    text-decoration:line-through;
+    font-size: xx-small;
+}
+
+.t-thr {
+    color: #a6a6a0;
+    font-size: xx-small;
+    font-weight: bold
+}
+
+.count {
+    color: #f84a68;
+    font-weight: bold;
+}
+
+.box1 {
+    background: url("../img/1.png");
+    background-size: 101%;
+}
+
+.box2 {
+    background: url("../img/2.png");
+    background-size: 101%;
+}
+
+.box3 {
+    background: url("../img/3.png");
+    background-size: 101%;
+}
+
+.box4 {
+    background: url("../img/4.png");
+    background-size: 101%;
+}
+
+.box5 {
+    background: url("../img/5.png");
+    background-size: 101%;
+}
+
+.box6 {
+    background: url("../img/6.png");
+    background-size: 101%;
+}
